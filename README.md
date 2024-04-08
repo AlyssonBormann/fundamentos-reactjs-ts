@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+## Sobre o projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto tem como objetivo o estudo e desenvolvimento de um feed, ultilizando React.JS, TypeScript, Vite, Sass, Phosphor e Date-fns.
 
-Currently, two official plugins are available:
+O projeto original foi desenvolvido como pratica das aulas do modulo 01 do [Ignite Rocketseat](https://rocketseat.com.br/)
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+Tecnologias utilizadas para construção da aplicação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [Vite](https://vitejs.dev/)
+- [Phosphor](https://phosphoricons.com/)
+- [Date-fns](https://date-fns.org/)
+---
 
-- Configure the top-level `parserOptions` property like this:
+### **Iniciando o projeto**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+# Execute yarn para instalar as dependências
+$ yarn
+
+# Para iniciar a aplicação
+$ yarn dev
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
+Desenvolvido por [Alysson Bormann]
